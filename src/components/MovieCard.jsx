@@ -26,7 +26,7 @@ const MovieCard = ({ movie }) => {
       <div className="mt-4">
         <h3 className="">{title}</h3>
 
-        <div class="content">
+        <div className="content">
           <div className="rating">
             <img src={start_img} alt="Star Icon" />
             <p>{vote_average ? vote_average.toFixed(1) : "N/A"}</p>
